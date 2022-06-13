@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.unairhebat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="setelahlogin" android:label="Pilih Permainan"></activity>
+        <activity android:name="level1" android:label="Level 1"></activity>
+        <activity android:name="level2" android:label="Level 2"></activity>
+        <activity android:name="level3" android:label="Level 3"></activity>
+        
+        <activity android:name="banksoal" android:label="Kumpulan Materi TB"></activity>
+        <activity android:name="kuncijawaban" android:label="Kunci Jawaban"></activity>
+        <activity android:name="elearning" android:label="E-Learning Apps"></activity>
+        
+        <activity android:name="tamat" android:label="Game Over"></activity>
+        
+    </application>
+
+</manifest>
